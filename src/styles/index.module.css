@@ -1,0 +1,7 @@
+.Principal-Container{
+    display: grid;
+    grid-template-areas:"sidebar home";
+    grid-template-columns: 10% 90%;
+
+    
+}

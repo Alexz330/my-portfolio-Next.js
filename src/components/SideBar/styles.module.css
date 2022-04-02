@@ -1,0 +1,29 @@
+.SideBar{
+    position: relative;
+    background-color: #040b14;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    grid-area: sidebar;
+}
+
+.nav{
+   display: flex;
+   flex-direction: column;
+   border-top: 1px solid #282828;
+}
+
+.nav>a{
+    color: whitesmoke;
+    text-align: center;
+    line-height: 5rem;
+    border-bottom: 1px solid #282828;
+    height: 100%;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.social>li{
+    list-style: none;
+}
