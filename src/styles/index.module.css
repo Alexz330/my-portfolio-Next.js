@@ -1,7 +1,9 @@
 .Principal-Container{
     display: grid;
-    grid-template-areas:"sidebar home";
-    grid-template-columns: 10% 90%;
+    grid-template-areas:"sidebar home"
+                        "sidebar skills"
+    ;
+    grid-template-columns: 15% 85%;
 
     
 }

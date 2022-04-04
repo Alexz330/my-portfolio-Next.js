@@ -1,7 +1,8 @@
 .SideBar{
-    position: relative;
+    position: fixed;
     background-color: #040b14;
     height: 100vh;
+    width: 15%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -11,16 +12,16 @@
 .nav{
    display: flex;
    flex-direction: column;
-   border-top: 1px solid #282828;
+  
 }
 
 .nav>a{
     color: whitesmoke;
     text-align: center;
     line-height: 5rem;
-    border-bottom: 1px solid #282828;
+
     height: 100%;
-    font-size: 1.6rem;
+    font-size: 2.5rem;
     font-weight: bold;
 }
 

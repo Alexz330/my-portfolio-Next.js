@@ -2,12 +2,19 @@ html,
 body {
   padding: 0;
   font-size: 62.5%;
+  font-family: monospace;
   box-sizing: border-box; 
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  
 }
 
+canvas{
+  position: absolute;
+
+  height: 100rem !important;
+  width: 100rem !important;
+ 
+}
 a{
   text-decoration: none;
 }

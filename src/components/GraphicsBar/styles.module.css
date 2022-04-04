@@ -1,0 +1,29 @@
+.Graphics{
+    display: flex;
+    flex-direction: column;
+    justify-content:  space-around;
+    grid-column: 2 / 3;
+    grid-row: 2/ 6;
+}
+
+.GraphicsBar-Information{
+  display: flex;
+  font-size: 4rem;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.bar--back{
+    
+    width: 50rem;
+    height: auto;
+    background-color: white;
+  
+
+}
+
+.bar--top{
+    
+    background-color: #282828;
+    
+}

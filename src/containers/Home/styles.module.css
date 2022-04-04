@@ -1,39 +1,45 @@
-.Home{
-    background-image: url('../../img/background.png');
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    width: 100%;
-    grid-area: home;
+.Home {
+  background-image: url("../../img/background.png");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  height: 100vh;
+  width: 100%;
+  grid-area: home;
 }
 
-.Home-wellcome-name{
-    color: whitesmoke;
-    padding-left: 1.8rem;
+.Home-wellcome-name {
+  color: whitesmoke;
+
 }
-.Home-wellcome-name>h1{
-    font-size: 10rem;
-}
-
-
-
-.Home-wellcome-presentation>p{
-
-    display: block;
-    white-space: nowrap;
-    color: whitesmoke;
-    font-size: 4rem;
-    margin-top: -2rem;
-    border-right: 1px solid whitesmoke;
-    animation: escribir 5s steps(17) infinite alternate;
-    overflow: hidden;
-    
+.Home-wellcome-name > h1 {
+  font-size: 10rem;
+  padding-left: 10rem;
 }
 
-@keyframes escribir {
-    from { width: 100% }
-    to { width:0px }
+
+.Home-wellcome-presentation span {
+  display: block;
+  font-family: monospace;
+  white-space: nowrap;
+  border-right: 4px solid;
+  font-size: 5rem;
+  color: whitesmoke;
+  width: 19ch;
+  padding-left: 10rem;
+  animation: typing 5s steps(19) infinite alternate, blink 0.5s infinite alternate;
+  overflow: hidden;
 }
 
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}

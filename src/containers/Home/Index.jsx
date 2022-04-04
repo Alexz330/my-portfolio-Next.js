@@ -9,10 +9,13 @@ const Home = () => {
             <h1 className={styles.names}>
                 Alexis López            
            </h1>
+           
         </div>
+
         <div className={styles['Home-wellcome-presentation']}>
-          <p >i'm Developer web</p>
+          <span >i'm Developer web</span>
         </div>
+        
     </main>
 
   )
