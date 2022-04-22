@@ -6,8 +6,8 @@ const getPorcentageToRem = (porcentage) => porcentage * 50;
 const GraphicsBar = () => {
   return (
     <div className={styles["Graphics"]}>
-    {data.map((curso) => (
-      <div className={styles["GraphicsBar-Container"]}>
+    {data.map((curso, i) => (
+      <div className={styles["GraphicsBar-Container"]} key={i}>
         <FadeInSection>
           <div className={styles["GraphicsBar-Information"]}>
             <span>{curso.curso}</span>
