@@ -1,7 +1,7 @@
 import styles from "./styles.module.css";
-import FadeInSection from "../../components/FadeInSection/Index";
-import Render from "../../components/Render/Index";
-import GraphicsBar from "../../components/GraphicsBar/Index";
+import FadeInSection from "../../Components/FadeInSection/Index";
+import Render from "../../Components/Render/Index";
+import GraphicsBar from "../../Components/GraphicsBar/Index";
 
 const Skills = () => {
   

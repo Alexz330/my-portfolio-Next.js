@@ -1,7 +1,7 @@
-import SideBar from "../components/SideBar/Index";
-import Home from "../containers/Home/Index";
+import SideBar from "../Components/SideBar/Index";
+import Home from "../Containers/Home/Index";
 import styles from "../styles/index.module.css";
-import Skills from "../containers/Skills";
+import Skills from "../Containers/Skills";
 
 
 
