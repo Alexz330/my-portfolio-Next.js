@@ -97,3 +97,12 @@
 }
 
 
+@media screen and (max-width: 768px){
+    
+  .SideBar {
+		display: none;
+	}
+
+}
+
+
