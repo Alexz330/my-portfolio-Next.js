@@ -6,7 +6,7 @@ import GraphicsBar from "../../Components/GraphicsBar/Index";
 const Skills = () => {
   
   return (
-    <div className={styles.Skills}>
+    <div className={styles.Skills} id="skills">
       <div className={styles["Skills-tittle"]}>
         <FadeInSection>
           <h2>skills</h2>

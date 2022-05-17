@@ -4,7 +4,7 @@ import styles from './styles.module.css'
 
 const Home = () => {
   return (
-    <main  className={styles.Home}>
+    <main  className={styles.Home} id='home'>
         <div className={styles['Home-wellcome-name']}>
             <h1 className={styles.names}>
                 Alexis López            

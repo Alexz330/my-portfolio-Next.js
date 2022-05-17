@@ -87,3 +87,13 @@
   font-size: 1.7rem;
   font-weight: bold;
 }
+
+@media screen and (max-width: 390px){
+    
+  .SideBar {
+		display: none;
+	}
+
+}
+
+

@@ -1,4 +1,5 @@
 .Principal-Container{
+ 
     display: grid;
     grid-template-areas:"sidebar home"
                         "sidebar skills"
@@ -6,4 +7,14 @@
     grid-template-columns: 15% 85%;
 
     
+}
+
+@media screen and (max-width: 768px){
+    
+	.Principal-Container {
+		grid-template-areas: "home home "
+						 "skills skills";
+        
+	}
+
 }

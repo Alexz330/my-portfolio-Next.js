@@ -27,3 +27,27 @@
     background-color: #282828;
     
 }
+
+
+@media screen and (max-width: 768px){
+
+    .bar--back{
+    
+        width: 45rem;
+        height: auto;
+        background-color: white;
+      
+    
+    }
+    
+
+    .Graphics{
+        grid-row: 2/ 6;
+        grid-column: 2 / 10;
+    }
+    .GraphicsBar-Information{
+        display: flex;
+        font-size: 4rem;
+       
+    }
+  }

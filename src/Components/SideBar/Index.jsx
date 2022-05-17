@@ -52,14 +52,14 @@ const SideBar = () => {
         </div>
       </div>
       <nav className={styles.nav}>
-        <a href="">
+        <a href="#home">
           <FontAwesomeIcon icon={faHome} /> Home
         </a>
         <a href="">
           {" "}
           <FontAwesomeIcon icon={faUser} /> About{" "}
         </a>
-        <a href="">
+        <a href="#skills">
           <FontAwesomeIcon icon={faComputer} /> My Skills
         </a>
         <a href="">
