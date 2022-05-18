@@ -41,7 +41,7 @@ const Portfolio = () => {
         </div>
       </FadeInSection>
       <FadeInSection className={Styles.Projects}>
-        <h2 className={Styles["Portofolio-title"]}>Projects Personals</h2>
+        <h2 className={Styles["Portofolio-title"]}>Personal's Projects</h2>
         <div className={Styles["Container-card"]}>
           <div className={Styles["card-projects"]}>
             <a href="https://next-shop-xi.vercel.app/">

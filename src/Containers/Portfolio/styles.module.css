@@ -11,6 +11,7 @@
   font-weight: bold;
   font-size: 5rem;
   margin-left: 15rem;
+
 }
 
 .Projects .Cirtificates {
@@ -21,7 +22,7 @@
 .Container-card {
   display: flex;
   justify-content: center;
-  align-items: center;
+
   flex-wrap: wrap;
   gap: 10rem;
 }
@@ -49,6 +50,20 @@
   font-size: 3rem;
   color: black;
 }
+
+@media screen and(max-width: 1447px){
+  .card {
+  
+    height: 30px;
+  
+  }
+  .card-projects {
+    width: 350px;
+    height: 200px;
+   
+  
+  }
+}
 @media screen and (max-width: 768px) {
   .Portofolio{
     margin-left: -5.5rem;
@@ -57,5 +72,28 @@
 @media screen and (max-width: 1080px) {
   .Portofolio{
     margin-left: -5.5rem;
+  }
+}
+
+
+
+@media screen and (max-width: 375px) {
+  .card {
+    width: 350px;
+    height: 300px;
+  
+  }
+  .card-projects {
+    width: 350px;
+    height: 200px;
+   
+  
+  }
+ 
+
+  .Portofolio-title {
+
+    margin-left: 9rem;
+    
   }
 }
