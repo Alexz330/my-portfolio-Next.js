@@ -56,7 +56,7 @@ const Portfolio = () => {
             </a>
           </div>
           <div className={Styles["card-projects"]}>
-            <a href="https://online-shop-7d650.web.app/">
+            <a href="https://alexz330.github.io/Cloud-travel/">
               <Image src={imgp3} />
               <p className={Styles["Projects-title"]}>Cloud Travel</p>
             </a>
