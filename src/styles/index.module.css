@@ -1,20 +1,50 @@
-.Principal-Container{
- 
-    display: grid;
-    grid-template-areas:"sidebar home"
-                        "sidebar skills"
-    ;
-    grid-template-columns: 15% 85%;
-
-    
+.Principal-Container {
+  display: grid;
+  
+  grid-template-areas:
+    "sidebar home"
+    "sidebar about"
+    "sidebar skills"
+    "Sidebar portfolio";
+  grid-template-columns: 15% 85%;
 }
 
-@media screen and (max-width: 768px){
-    
-	.Principal-Container {
-		grid-template-areas: "home home "
-						 "skills skills";
-        
-	}
+@media screen and (max-width: 768px) {
+  .Principal-Container {
+    grid-template-areas:
+      "home home "
+      "about about"
+      "skills skills"
+      "portfolio portfolio"
+      ;
+  }
+}
 
+@media screen and (max-width: 1080px) {
+  .Principal-Container {
+    grid-template-areas:
+      "home home "
+      "about about"
+      "skills skills"
+      "portfolio portfolio"
+      ;
+  }
+
+  .Principal-Container {
+    grid-template-columns: 20% 80%;
+  }
+}
+
+@media screen and (max-width: 810px) {
+  .Principal-Container {
+    grid-template-areas:
+      "home home "
+      "about about"
+      "skills skills"
+      "portfolio portfolio"
+      ;
+  }
+  .SideBar {
+    display: none;
+  }
 }

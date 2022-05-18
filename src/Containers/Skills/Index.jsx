@@ -14,9 +14,9 @@ const Skills = () => {
       </div>
      <GraphicsBar />
       <div className={styles.render}>
-        <FadeInSection>
+        <div>
           <Render />
-        </FadeInSection>
+        </div>
       </div>
     </div>
   );

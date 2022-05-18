@@ -11,11 +11,20 @@ body {
 canvas{
   position: absolute;
 
-  height: 100rem !important;
-  width: 100rem !important;
+  height: 60rem !important;
+  width: 60rem !important;
  
 }
 a{
   text-decoration: none;
 }
 
+@media screen and (max-width: 1080px) {
+  canvas{
+    position: absolute;
+  
+    height: 43rem !important;
+    width: 43rem !important;
+   
+  }
+}

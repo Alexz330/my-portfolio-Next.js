@@ -55,14 +55,14 @@ const SideBar = () => {
         <a href="#home">
           <FontAwesomeIcon icon={faHome} /> Home
         </a>
-        <a href="">
+        <a href="#about">
           {" "}
           <FontAwesomeIcon icon={faUser} /> About{" "}
         </a>
         <a href="#skills">
           <FontAwesomeIcon icon={faComputer} /> My Skills
         </a>
-        <a href="">
+        <a href="#portafolio">
           <FontAwesomeIcon icon={faBriefcase} /> Porfolio
         </a>
       </nav>

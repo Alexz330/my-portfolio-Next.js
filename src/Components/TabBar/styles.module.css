@@ -32,3 +32,24 @@
     }
   
   }
+
+  	.Principal-Container {
+		grid-template-areas: "home home "
+						 "skills skills";
+        
+	}
+
+  @media screen and (max-width: 810px) {
+        
+    .TabBar {
+      display: flex;
+    }
+    
+  }
+  
+  @media screen and (max-width: 1080px) {
+        
+    .TabBar {
+      display: flex;
+    }
+  }

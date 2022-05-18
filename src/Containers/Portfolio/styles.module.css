@@ -1,0 +1,61 @@
+.Portofolio {
+  position: relative;
+
+  height: 100vh;
+
+  margin: 0 auto;
+  grid-area: portfolio;
+
+}
+.Portofolio-title {
+  font-weight: bold;
+  font-size: 5rem;
+  margin-left: 15rem;
+}
+
+.Projects .Cirtificates {
+  display: flex;
+  margin-left: 10rem;
+ 
+}
+.Container-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10rem;
+}
+.card {
+  width: 400px;
+  height: 300px;
+  background-color: whitesmoke;
+  border-radius: 5px;
+  transform-style: preserve-3d;
+  margin-left: 50px;
+  margin-bottom: 5rem;
+}
+.card-projects {
+  width: 400px;
+  height: 200px;
+  background-color: whitesmoke;
+  border-radius: 5px;
+  transform-style: preserve-3d;
+  margin-left: 50px;
+  margin-bottom: 10rem;
+
+}
+
+.Projects-title {
+  font-size: 3rem;
+  color: black;
+}
+@media screen and (max-width: 768px) {
+  .Portofolio{
+    margin-left: -5.5rem;
+  }
+}
+@media screen and (max-width: 1080px) {
+  .Portofolio{
+    margin-left: -5.5rem;
+  }
+}

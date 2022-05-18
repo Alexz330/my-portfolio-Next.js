@@ -1,53 +1,44 @@
-.Graphics{
-    display: flex;
-    flex-direction: column;
-    justify-content:  space-around;
-    grid-column: 2 / 3;
-    grid-row: 2/ 6;
+.Graphics {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  grid-column: 2 / 3;
+  grid-row: 2/ 6;
 }
 
-.GraphicsBar-Information{
+.GraphicsBar-Information {
   display: flex;
   font-size: 4rem;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-bottom: 1rem;
 }
 
-.bar--back{
-    
-    width: 50rem;
+.bar--back {
+  width: 50rem;
+  height: auto;
+  background-color: white;
+}
+
+.bar--top {
+  background-color: #282828;
+}
+
+@media screen and (max-width: 768px) {
+  
+  .bar--back {
+    width: 40rem;
     height: auto;
     background-color: white;
-  
-
-}
-
-.bar--top{
-    
-    background-color: #282828;
-    
-}
-
-
-@media screen and (max-width: 768px){
-
-    .bar--back{
-    
-        width: 45rem;
-        height: auto;
-        background-color: white;
-      
-    
-    }
-    
-
-    .Graphics{
-        grid-row: 2/ 6;
-        grid-column: 2 / 10;
-    }
-    .GraphicsBar-Information{
-        display: flex;
-        font-size: 4rem;
-       
-    }
   }
+
+  .Graphics {
+    grid-row: 2/ 6;
+    grid-column: 2 / 3;
+  }
+  .GraphicsBar-Information {
+    display: flex;
+    font-size: 4rem;
+  }
+}
+
+

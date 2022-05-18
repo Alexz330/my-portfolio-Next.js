@@ -14,32 +14,30 @@
   justify-content: center;
   align-self: center;
   margin-top: 3rem;
-
 }
-.Profile-Photo{
+.Profile-Photo {
   display: flex;
   flex-direction: column;
-  width:28em;
-
+  width: 28em;
 }
 .Profile-name {
   color: whitesmoke;
   line-height: 5rem;
   font-size: 2.5rem;
-  font-weight:bold;
+  font-weight: bold;
   text-align: center;
 }
 .photo {
   border-radius: 100%;
 }
-.social{
+.social {
   display: flex;
   align-self: center;
   justify-content: space-around;
   width: 28rem;
 }
 
-.icon>a{
+.icon > a {
   color: whitesmoke;
   font-size: 4rem;
   font-weight: bold;
@@ -60,7 +58,6 @@
     }
 } */
 
-
 .nav {
   display: flex;
   flex-direction: column;
@@ -77,8 +74,7 @@
   font-weight: bold;
 }
 
-
-.footer{
+.footer {
   margin-top: 32rem;
   color: whitesmoke;
   line-height: 5rem;
@@ -88,21 +84,27 @@
   font-weight: bold;
 }
 
-@media screen and (max-width: 390px){
-    
+@media screen and (max-width: 390px) {
   .SideBar {
-		display: none;
-	}
+    display: none;
+  }
+}
 
+@media screen and (max-width: 768px) {
+  .SideBar {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .SideBar {
+    display: none;
+  }
 }
 
 
-@media screen and (max-width: 768px){
-    
+@media screen and (max-width: 810px) {
   .SideBar {
-		display: none;
-	}
-
+    display: none;
+  }
 }
-
-

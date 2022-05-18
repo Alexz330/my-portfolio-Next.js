@@ -22,8 +22,8 @@ function init() {
     50000
   )
   camera.position.y = 25 * Math.sin(0.8 * Math.PI)
-  camera.position.x = 15 * Math.cos(1.2 * Math.PI)
-  camera.position.z = 10 
+  camera.position.x = 10 * Math.cos(2 * Math.PI)
+  camera.position.z = 5 
   camera.lookAt(new THREE.Vector3(0, 0, 0))
   console.log('camera:', camera)
 

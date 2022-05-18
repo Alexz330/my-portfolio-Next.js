@@ -17,14 +17,14 @@ const TabBar = () => {
         <a href="#home">
           <FontAwesomeIcon icon={faHome} />
         </a>
-        <a href="#skills">
-          {" "}
+        <a href="#about">
+        
           <FontAwesomeIcon icon={faUser} />
         </a>
-        <a href="">
+        <a href="#skills">
           <FontAwesomeIcon icon={faComputer}  />
         </a>
-        <a href="">
+        <a href="#portafolio">
           <FontAwesomeIcon icon={faBriefcase} />
         </a>
       </div>
